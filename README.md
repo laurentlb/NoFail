@@ -489,3 +489,10 @@ print heigth
 
 There is no implementation of the language yet. If you'd like to see one, please
 comment on the issue tracker.
+
+Any implementation should try as hard as possible to parse grammatically code
+(like in HTML, one of the most used languages in the world). If a construct
+cannot be parsed, it should be skipped.
+
+As Python 3, new versions of the language might break compatibility in any way
+you can imagine.
